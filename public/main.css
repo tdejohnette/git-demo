@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pangolin|Raleway|Roboto+Condensed|Roboto+Mono');
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+
+/*
+img{
+  background-size: cover;
+  height: 20%;
+  width: 20%;
+}
+
+*/
+
+label{
+  font-size: 15px;
+}
+
+.col-md-8 {
+  position: fixed;
+  left: 75%;
+  padding: 5%;
+}
+
+.chat {
+  color: #b50000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-group{
+  width: 100%;
+}
+
+#myImage {
+  position: absolute;
+  height: 100%;
+  width: 76%;
+  padding: 0;
+  left: 0;
+  drop-shadow: grey 2px;
+  bottom:0;
+  top:0;
+  border: 5px solid white;
+}
+
+#time {
+  font-size: 90%;
+  color: #b50000;
+  top: 2%;
+  position: absolute;
+  left: 95%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.submit{
+  font-family: 'Roboto Mono', monospace;
+}
+
+#messageForm {
+  padding: 0;
+}
